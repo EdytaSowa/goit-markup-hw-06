@@ -438,46 +438,48 @@
         </button>
         <p class="modal-title">Zostaw swoje dane w formularzu poniżej</p>
 
-        <form class="modal-form">
-          <label class="modal-label">Imię</label>
-          <input name="name" class="modal-input" type="text" />
-          <svg class="modal-icon"><use href="./images/icons.svg#icon-person"></use></svg>
-        </form>
+        <form>
+          <fieldset class="modal-form">
+            <label class="modal-label">Imię</label>
+            <input name="name" class="modal-input" type="text" />
+            <svg class="modal-icon"><use href="./images/icons.svg#icon-person"></use></svg>
+          </fieldset>
 
-        <form class="modal-form">
-          <label class="modal-label">Telefon</label>
-          <input name="phone" class="modal-input" type="tel" />
-          <svg class="modal-icon"><use href="./images/icons.svg#icon-phone"></use></svg>
-        </form>
+          <fieldset class="modal-form">
+            <label class="modal-label">Telefon</label>
+            <input name="phone" class="modal-input" type="tel" />
+            <svg class="modal-icon"><use href="./images/icons.svg#icon-phone"></use></svg>
+          </fieldset>
 
-        <form class="modal-form">
-          <label class="modal-label">Email</label>
-          <input name="email" class="modal-input" type="text" />
-          <svg class="modal-icon"><use href="./images/icons.svg#icon-email"></use></svg>
-        </form>
+          <fieldset class="modal-form">
+            <label class="modal-label">Email</label>
+            <input name="email" class="modal-input" type="email" />
+            <svg class="modal-icon"><use href="./images/icons.svg#icon-email"></use></svg>
+          </fieldset>
 
-        <form class="modal-form">
-          <label class="modal-label">Komentarz</label>
-          <textarea
-            name="comment"
-            class="modal-comment modal-input"
-            placeholder="Wprowadź tekst"
-          ></textarea>
-        </form>
+          <fieldset class="modal-form">
+            <label class="modal-label">Komentarz</label>
+            <textarea
+              name="comment"
+              class="modal-comment modal-input"
+              placeholder="Wprowadź tekst"
+            ></textarea>
+          </fieldset>
 
-        <form class="modal-checkbox">
-          <label class="label-checkbox">
-            <input name="check-box" class="input-checkbox" type="checkbox" />
-            <span>
-              <svg class="icon-checkbox"><use href="./images/icons.svg#icon-checked"></use></svg>
-              Oświadczam iż akceptuję
-              <a href="#">Regulamin</a> i <a href="#">Politykę Prywatności</a>.
-            </span>
-          </label>
+          <fieldset class="modal-checkbox">
+            <label class="label-checkbox">
+              <input name="check-box" class="input-checkbox" type="checkbox" />
+              <span>
+                <svg class="icon-checkbox"><use href="./images/icons.svg#icon-checked"></use></svg>
+                Oświadczam, iż akceptuję
+                <a href="#">Regulamin</a> i <a href="#">Politykę Prywatności</a>.
+              </span>
+            </label>
+          </fieldset>
+          <div class="button-flex">
+            <button class="modal-button-send" type="submit">Wyślij</button>
+          </div>
         </form>
-        <div class="button-flex">
-          <button class="modal-button-send" type="submit">Wyślij</button>
-        </div>
       </div>
     </div>
 
